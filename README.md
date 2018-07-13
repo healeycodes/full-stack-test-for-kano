@@ -5,6 +5,7 @@ A Flask blog application, serving one mobile-first responsive page that accepts 
 ### Build
 
 `cd kano_blog`
+
 `python create_db.py`
 
 ### Run for development
