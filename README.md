@@ -1,5 +1,7 @@
 ## Full Stack Development Test
 
+![alt text](https://github.com/healeycodes/full-stack-test-for-kano/blob/master/preview.png "Preview image of app")
+
 A Flask blog application, serving one mobile-first responsive page that accepts user messages via an HTML form. Messages are saved to an sqlite database within the package folder and can be retrieved with an included Python script.
 
 ### Build
