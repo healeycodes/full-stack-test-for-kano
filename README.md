@@ -4,6 +4,8 @@ A Flask blog application, serving one mobile-first responsive page that accepts 
 
 ### Build
 
+`pip install Flask` (v1.02 required)
+
 `cd kano_blog`
 
 `python create_db.py`
