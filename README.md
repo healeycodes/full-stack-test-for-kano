@@ -42,10 +42,10 @@ Docs: http://flask.pocoo.org/docs/1.0/tutorial/deploy/?highlight=deploy
 
 ### Get user messages
 
-Add test message
-
-`python print_messages.py add_test_msg`
-
 Print all messages, delimited by pipe symbol
 
 `python print_messages.py`
+
+(Optional) add the hardcoded test message
+
+`python print_messages.py add_test_msg`
