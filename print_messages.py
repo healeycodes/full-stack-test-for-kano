@@ -41,5 +41,8 @@ if __name__ == '__main__':
         add_test_message()
         print('Added test message.')
     else:
-        for msg in get_messages():
-            print(msg)
+        if len(get_messages()) == 0:
+            print('No messages in table.')
+        else:
+            for msg in get_messages():
+                print(msg)
