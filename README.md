@@ -1,6 +1,6 @@
 ## Full Stack Development Test
 
-A Flask blog application, serving one mobile-first responsive page that accepts user messages via an HTML form. Messages are saved to an sqlite database within the package folder.
+A Flask blog application, serving one mobile-first responsive page that accepts user messages via an HTML form. Messages are saved to an sqlite database within the package folder and can be retrieved with an included Python script.
 
 ### Build
 
@@ -32,7 +32,7 @@ waitress-serve --call 'kano_blog:create_app'
 Serving on http://0.0.0.0:8080
 ```
 
-docs: http://flask.pocoo.org/docs/1.0/tutorial/deploy/?highlight=deploy
+Docs: http://flask.pocoo.org/docs/1.0/tutorial/deploy/?highlight=deploy
 
 
 ### Get user messages
