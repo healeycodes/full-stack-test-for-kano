@@ -2,7 +2,9 @@
 
 ![alt text](https://github.com/healeycodes/full-stack-test-for-kano/blob/master/preview.png "Preview image of app")
 
-A Flask blog application, serving one mobile-first responsive page that accepts user messages via an HTML form. Messages are saved to an SQLite database within the package folder and can be retrieved with an included Python script.
+A Flask blog application, serving a mobile-first responsive page that accepts user messages via an HTML form. Messages are saved to an SQLite database within the package folder and can be retrieved with an included Python script.
+
+<br>
 
 ### Build
 
@@ -13,6 +15,8 @@ Note: tested on Python v3.6.5
 `cd kano_blog`
 
 `python create_db.py`
+
+<br>
 
 ### Run for development
 
@@ -28,6 +32,8 @@ python app.py
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 
+<br>
+
 ### Run for production
 
 `pip install waitress`
@@ -41,6 +47,7 @@ Serving on http://0.0.0.0:8080
 
 Docs: http://flask.pocoo.org/docs/1.0/tutorial/deploy/?highlight=deploy
 
+<br>
 
 ### Get user messages
 
