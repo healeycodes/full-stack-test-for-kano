@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS comment;
+
+CREATE TABLE comment (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    email TEXT NOT NULL,
+    name TEXT NOT NULL,
+    message TEXT NOT NULL
+);
