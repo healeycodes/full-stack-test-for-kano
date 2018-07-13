@@ -6,7 +6,7 @@ A Flask blog application, serving one mobile-first responsive page that accepts 
 
 ### Build
 
-`pip install Flask` (v1.02 required)
+`pip install -r requirements.txt` or alternatively you can just `pip install Flask`
 
 `cd kano_blog`
 
